@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <title>Big Brother Music</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="bigbrother.js" defer></script>
+</head>
+<body>
+    <div class="navigation">
+        <div class="main-logo" data-aos="fade-left" data-aos-duration="4000">
+            <a href="index.html"><img class="logo-record" src="./images/bblogo.png" alt=""></a>
+        </div>
+        <div class="extra-btn" data-aos="fade-right" data-aos-duration="4000">
+            <audio id="audio" src="./images/mainaudio.mp3"></audio>
+            <button id="playpause" class="slider-sm play-btn" onclick="playPause();">PLAY &#9658;</button>
+        </div>
+        <button class="mobile-toggle" aria-expanded="false" data-aos="fade-right" data-aos-duration="4000"></button>
+      <div class="menu" data-visible="false">
+        <div id="nav-item">
+          <ul>
+                <div class="sm-link flex" data-aos="fade-right" data-aos-duration="4000">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="services.html">OUR SERVICES</a>
+                <a href="artiste.html">ARTISTES</a>
+                <a href="release.html">RELEASES</a>
+                <a href="live.html">LIVE</a>
+                </div>
+          </ul>
+        </div>
+      </div>
+        
+    </div>
+    <div class="artiste-info" data-aos="fade-up" data-aos-duration="2000">
+        <div class="info-img">
+            <img class="info-img-sub" src="./images/greenberri.png" alt="">
+        </div>
+        <div class="info-text" data-aos="fade-up" data-aos-duration="2000">
+            <p>
+                Agada Blessed Obutu, also known popularly by the stage name Berri Tiga, is a young fast rising Nigerian song writer and singer. Born on the 10th
+                of October 2004, he hails from Benue state, although he spent most of his life in Lagos. Agada Blessed Obutu started his music career at a
+                very young age. He attended French village International College in Badagry, Lagos State. There, he was always writing and singing songs he
+                wrote to his friends. A few years later, a freestyle video he posted saw him gain attention from various sources, the freestyle was titled Jo". 
+                Later on he was noticed and then signed into his former label, Big Brother Music.
+
+                He became well-known in 2021 thanks to his consistent cover-making, earning him a record deal with his former Big Brother Management (BBR).
+                When Berri Tiga was included on Efe Carter's smash single "Machala" in 2022, his career
+                took off. Several music charts, including Apple Music's, quickly added the song to the top of their lists. Their collaboration, "Machala," reached
+                number one on multiple charts, and his music has been streamed millions of times across multiple platforms.
+                Berri Tiga has released three songs titled MMBM(Money Must Be Made), GOD, MACHALA under his former record label Big Brother Music. Driven by the desire to connect with his fans and inspire other, Berri Tiga
+                enter an agreement with the Big Brother Music to be his management. In addition to the management deal, Berri Tiga also secured an exclusive distribution deal. This partnership provides him means to share his 
+                music to a wider audience.
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="contact" data-aos="fade-up" data-aos-duration="2000">
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>CONTACT US</h1>
+            <p>
+                Ready to embark on a musical journey with us? Reach out to our team today to explore partnership opportunities.
+            </p>
+        </div>
+
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>DISTRIBUTION</h1>
+            <p>
+                To get your music on digital stores worldwide kindly send an email to <span class="orange-text">distro@bigbrothermusic.com</span>
+            </p>
+        </div>
+
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>general enquiries</h1>
+            <p>
+                For any other enquiries please contact us through <span class="orange-text">contact@bigbrothermusic.com</span>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer" data-aos="fade-down" data-aos-duration="4000">
+            <div class="follow">
+                <h3>FOLLOW US</h3>
+                <div class="follow-img">
+                    <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/facebook.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/instagram.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/twitter-x.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/youtube.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="link">
+                <h3>LINKS</h3>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="artiste.html">ARTISTS</a>
+                <a href="release.html">DISTRIBUTION</a>
+                <a href="live.html">LIVE</a>
+                <a href="#">NEWS & EVENTS</a>
+                <a href="#">SHOP MERCH</a>
+            </div>
+            <div class="search">
+                <h3>SUBSCRIBE</h3>
+                <input type="text" placeholder="Type your email address">
+            </div>
+
+            <p class="lg-none ttm">
+                &copy; BIG BROTHER MUSIC ALL RIGHTS RESERVED
+            </p>
+            
+        </div>
+        <div class="sm-none">
+            &copy; BIG BROTHER MUSIC ALL RIGHTS RESERVED
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

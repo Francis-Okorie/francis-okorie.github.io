@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <title>Big Brother Music</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="bigbrother.js" defer></script>
+</head>
+<body>
+    <div class="navigation">
+        <div class="main-logo" data-aos="fade-left" data-aos-duration="4000">
+            <a href="index.html"><img class="logo-record" src="./images/bblogo.png" alt=""></a>
+        </div>
+        <div class="extra-btn" data-aos="fade-right" data-aos-duration="4000">
+            <audio id="audio" src="./images/mainaudio.mp3"></audio>
+            <button id="playpause" class="slider-sm play-btn" onclick="playPause();">PLAY &#9658;</button>
+        </div>
+        <button class="mobile-toggle" aria-expanded="false" data-aos="fade-right" data-aos-duration="4000"></button>
+      <div class="menu" data-visible="false">
+        <div id="nav-item">
+          <ul>
+                <div class="sm-link flex" data-aos="fade-right" data-aos-duration="4000">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="services.html">OUR SERVICES</a>
+                <a href="artiste.html">ARTISTES</a>
+                <a href="release.html">RELEASES</a>
+                <a href="live.html">LIVE</a>
+                </div>
+          </ul>
+        </div>
+      </div>
+        
+    </div>
+
+     
+    <div class="artiste1">
+        <div class="art1-detail">
+            <div class="art-img ree-main">
+                <img class="main-art ree" src="./images/machalaart.png" alt="">
+            </div>
+            <h1 class="ree-berri">MACHALA</h1>
+            
+            <div class="release-detals">
+                <h2>Release Date: July 29, 2022</h2>
+                <h2>Artist: Carter Efe FT Berri Tega</h2>
+                <h2>Format: Digital Download</h2>
+            </div>
+        </div>
+
+        <div class="art1-link banner-sm">
+            <a href="
+            https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+                <div class="spotify">
+                    <img class="spotify-sm-logoo" src="./images/spotify.svg" alt="">
+                </div>
+            </a>
+    
+            <a href="
+            https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+                <div class="apple">
+                    <img src="./images/apple-music.svg" alt="">
+                </div>
+            </a>
+    
+            <a href="
+            https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+                <div class="amazon">
+                    <img src="./images/apple-itunes-logo.svg" alt="">
+                </div>
+            </a>
+    
+            <a href="
+            https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+                <div class="youtube-m">
+                    <img src="./images/YouTube_Music.svg" alt="">
+                </div>
+            </a>
+
+            <a href="
+            https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+                <div class="youtube-m">
+                    <img class="amz" src="./images/amazon-Music.svg" alt="">
+                </div>
+            </a>
+        </div>
+
+        
+    </div>
+
+    <div class="lg-link-stream banner-lg">
+        <a href="https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+            <div class="youtube-m">
+                <img class="spotify-sm-logoo" src="./images/spotify.svg" alt="">
+            </div>
+        </a>
+    
+        <a href="https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+            <div class="youtube-m">
+                <img src="./images/apple-music.svg" alt="">
+            </div>
+        </a>
+    
+        <a href="https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+            <div class="youtube-m">
+                <img src="./images/apple-itunes-logo.svg" alt="">
+            </div>
+        </a>
+    
+        <a href="https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+            <div class="youtube-m">
+                <img class="amz" src="./images/amazon-Music.svg" alt="">
+            </div>
+        </a>
+        <a href="https://fanlink.to/berritigagod?fbclid=PAAaa08uu3F9MxwFFkpeOd-vvrZl6g1aD_o1CYpOUBz1QPSl5G_3bzPWTvX10">
+            <div class="youtube-m">
+             <img src="./images/YouTube_Music.svg" alt="">
+            </div>
+        </a>
+    </div>
+
+
+
+    <div class="contact" data-aos="fade-up" data-aos-duration="2000">
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>CONTACT US</h1>
+            <p>
+                Ready to embark on a musical journey with us? Reach out to our team today to explore partnership opportunities.
+            </p>
+        </div>
+
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>DISTRIBUTION</h1>
+            <p>
+                To get your music on digital stores worldwide kindly send an email to <span class="orange-text">distro@bigbrothermusic.com</span>
+            </p>
+        </div>
+
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>general enquiries</h1>
+            <p>
+                For any other enquiries please contact us through <span class="orange-text">contact@bigbrothermusic.com</span>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer" data-aos="fade-down" data-aos-duration="4000">
+            <div class="follow">
+                <h3>FOLLOW US</h3>
+                <div class="follow-img">
+                    <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/facebook.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/instagram.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/twitter-x.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/youtube.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="link">
+                <h3>LINKS</h3>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="artiste.html">ARTISTS</a>
+                <a href="release.html">DISTRIBUTION</a>
+                <a href="live.html">LIVE</a>
+                <a href="#">NEWS & EVENTS</a>
+                <a href="#">SHOP MERCH</a>
+            </div>
+            <div class="search">
+                <h3>SUBSCRIBE</h3>
+                <input type="text" placeholder="Type your email address">
+            </div>
+
+            <p class="lg-none ttm">
+                &copy; BIG BROTHER MUSIC ALL RIGHTS RESERVED
+            </p>
+            
+        </div>
+        <div class="sm-none">
+            &copy; BIG BROTHER MUSIC ALL RIGHTS RESERVED
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <title>Big Brother Music</title>
+    <meta name="description" content="Big Brother Music is a music label dedicated to producing and promoting exceptional music that speaks to the soul.">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="bigbrother.js" defer></script>
+</head>
+<body>
+    <div class="navigation">
+        <div class="main-logo" data-aos="fade-left" data-aos-duration="4000">
+            <a href="index.html"><img class="logo-record" src="./images/bblogo.png" alt=""></a>
+        </div>
+        <div class="extra-btn" data-aos="fade-right" data-aos-duration="4000">
+            <audio id="audio" src="./images/audioplay.mp3"></audio>
+            <button id="playpause" class="slider-sm play-btn " onclick="playPause();">PLAY &#9658;</button>
+        </div>
+        <button class="mobile-toggle" aria-expanded="false" data-aos="fade-right" data-aos-duration="4000"></button>
+      <div class="menu" data-visible="false">
+        <div id="nav-item">
+          <ul>
+                <div class="sm-link flex" data-aos="fade-right" data-aos-duration="4000">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="services.html">OUR SERVICES</a>
+                <a href="artiste.html">ARTISTES</a>
+                <a href="release.html">RELEASES</a>
+                <a href="live.html">LIVE</a>
+                </div>
+          </ul>
+        </div>
+      </div>
+        
+    </div>
+
+    <div class="slider-sm">
+        <div class="carousel banner-sm" data-aos="fade-up" data-aos-duration="4000">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="carousel-images" src="./images/bannermain-new(1).png" class="d-block w-100" alt="...">
+                    <div class="caro-div"><p>Discover the Rhythm of Africa with BBR-Where Local Passion Meets Global Innovation.</p>
+                        <h4 class="explore-text">Explore our lastest releases, upcoming projects, and the vibrant world of African music.</h4>
+                        <div class="slider-button">
+                            <a href="about.html">
+                                <button class="slider-btn">ABOUT US</button>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="carousel-images" src="./images/bannermain-new2.png" class="d-block w-100" alt="...">
+                    <div class="caro-div"><p>Berri Tiga featured song "<span class="orange-line">MACHALA</span>" peaked at No. 1 on Nigeria's Apple Music for 2 months.</p>
+                        <div class="">
+                            <img class="machala-artwork" src="./images/artwork(1).png" alt="">
+                            <p class="year">2022</p>
+                        </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        
+    </div>
+
+    <div class="carousel banner-lg" data-aos="fade-up" data-aos-duration="4000">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carousel-lg" src="./images/banner-lg.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-lg" src="./images/bannerlg3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="what-we-do"  data-aos="fade-up" data-aos-duration="4000">
+        <div class="what-we-do-text">
+            <h1 class="sub-about-text">ABOUT</h1>
+            <h2 class="sub-what-we-do">WHAT WE DO</h2>
+        </div>
+
+        <div class="what-we-do-sub">
+            <p>At BBR, we pride ourselves on being more than a record label. 
+                We are curators of talents, connecting Africa's diverse musical landscape with the world.
+                Learn about our journey, values, and commitment to shaping the future of African music.
+            </p>
+        </div> 
+        <div class="what-btn">
+            <a href="about.html">
+                <button class="view-all">READ MORE</button>
+            </a>
+        </div>
+    </div>
+     
+    <div class="artiste" data-aos="fade-up" data-aos-duration="2000">
+        <h1 class="top-text">Artistes<img class="arr-icon" src="./images/arrow-up-right.svg" alt=""></h1>
+        <div class="artiste-img">
+            <a href="artiste1.html">
+                <div class="art-img">
+                    <div class="art-img-main">
+                        <img class="art-image-detail" src="./images/greenberri.png" alt="">
+                    </div>
+                    <h1 class="artiste-name">BERRI TIGA</h1>
+                    <div class="social-artiste" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="follow-img">
+                        <a href="https://instagram.com/berri_tiga?igshid=OGQ5ZDc2ODk2ZA=="><img src="./images/facebook.svg" alt=""></a>
+                        <a href="https://instagram.com/berri_tiga?igshid=OGQ5ZDc2ODk2ZA=="><img src="./images/instagram.svg" alt=""></a>
+                        <a href="https://x.com/TigaBerri?t=yenfvLOffMCMM1UsNcb-4w&s=09"><img src="./images/twitter-x.svg" alt=""></a>
+                        <a href="https://instagram.com/berri_tiga?igshid=OGQ5ZDc2ODk2ZA=="><img src="./images/youtube.svg" alt=""></a>
+                        <a href="https://instagram.com/berri_tiga?igshid=OGQ5ZDc2ODk2ZA=="><img src="./images/linkedin.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="artiste2.html">
+                <div class="art-img" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="art-img-main">
+                        <img class="art-image-detail" src="./images/greenproducer.png" alt="">
+                    </div>
+                    <h1>PRODUCER X</h1>
+                    <div class="social-artiste" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="follow-img">
+                            <a href="https://www.instagram.com/p/C0Y2fZVI-dj/?igshid=MTc4MmM1YmI2Ng=="><img src="./images/facebook.svg" alt=""></a>
+                            <a href="https://www.instagram.com/p/C0Y2fZVI-dj/?igshid=MTc4MmM1YmI2Ng=="><img src="./images/instagram.svg" alt=""></a>
+                            <a href="https://x.com/yoxgiddem?t=qMN6QlVCavDDq7vWT0CFGg&s=09"><img src="./images/twitter-x.svg" alt=""></a>
+                            <a href="https://www.instagram.com/p/C0Y2fZVI-dj/?igshid=MTc4MmM1YmI2Ng=="><img src="./images/youtube.svg" alt=""></a>
+                            <a href="https://www.instagram.com/p/C0Y2fZVI-dj/?igshid=MTc4MmM1YmI2Ng=="><img src="./images/linkedin.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="sub-button" data-aos="fade-up" data-aos-duration="4000">
+            <a href="artiste.html">
+                <button class="view-all">VIEW ALL</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="artiste"  data-aos="fade-up" data-aos-duration="2000">
+        <h1 class="top-text">RELEASES<img class="arr-icon" src="./images/arrow-up-right.svg" alt=""></h1>
+        <div class="artiste-img">
+            <a href="releases4.html">
+                <div class="art--name" data-aos="fade-up" data-aos-duration="2000">
+                    <img class="main-art-name" src="./images/wyl.png" alt="">
+                    <div class="art_name" data-aos="fade-up" data-aos-duration="2000">
+                        <h4 class="yellow-text">SINGLE</h4>
+                        <h4 class="norm-text">PRODUCER X - WHAT YOU LIKE </h4>
+                    </div>
+                </div>
+               </a>
+            <a href="releases2.html">
+                <div class="art--name">
+                    <img class="main-art-name" src="./images/machalaart.png" alt="">
+                </div>
+                <div class="art_name" data-aos="fade-up" data-aos-duration="2000">
+                    <h4 class="yellow-text">FEATURE</h4>
+                    <h4 class="norm-text">CARTER EFE FT BERRI TIGA - MACHALA</h4>
+                </div>
+            </a>
+           <a href="releases1.html">
+            <div class="art--name" data-aos="fade-up" data-aos-duration="2000">
+                <img class="main-art-name" src="./images/mmbmnew.png" alt="">
+                <div class="art_name" data-aos="fade-up" data-aos-duration="2000">
+                    <h4 class="yellow-text">SINGLE</h4>
+                    <h4 class="norm-text">BERRI TIGA - MMBM </h4>
+                </div>
+            </div>
+           </a>
+           
+        </div>
+        <div class="sub-button" data-aos="fade-up" data-aos-duration="4000">
+            <a href="release.html">
+                <button class="view-all">VIEW ALL</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="videos artiste" data-aos="fade-up" data-aos-duration="2000">
+        <h1>VIDEOS<img class="arr-icon" src="./images/arrow-up-right.svg" alt=""></h1>
+        <p>Subscribe to our <a href=""><span class="orange-text">Youtube Channel</span></a> to be the first to listen to our lastest and hottest jam.</p>
+        <div class="video-contaner" data-aos="fade-up" data-aos-duration="2000">
+            <div class="video1">
+                <iframe width="560" height="315" class="vid" src="https://www.youtube.com/embed/jg0-JvjUY78?si=Yt_DhqL04dKhp0id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="video2">
+                <iframe width="560" height="315" class="vid" src="https://www.youtube.com/embed/BOee13r2WyM?si=mVGexoG9OUzcTWQ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" data-aos="fade-up" data-aos-duration="2000">
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>GET IN TOUCH</h1>
+            <p>
+                Ready to amplify your music career or explore collaboration
+                opportunities? Contact us today tostart a conversation about
+                how BBR can be your strategic partner in the music industry.
+            </p>
+        </div>
+
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>DISTRIBUTION</h1>
+            <p>
+                To get your music on digital stores worldwide kindly send an email to <span class="orange-text">distro@bigbrothermusic.com</span>
+            </p>
+        </div>
+
+        <div class="contact-us" data-aos="fade-up" data-aos-duration="2000">
+            <h1>general enquiries</h1>
+            <p>
+                For any other enquiries please contact us through <span class="orange-text">contact@bigbrothermusic.com</span>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer" data-aos="fade-down" data-aos-duration="4000">
+            <div class="follow">
+                <h3>FOLLOW US</h3>
+                <div class="follow-img">
+                    <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/facebook.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/instagram.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/twitter-x.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/youtube.svg" alt=""></a>
+                        <a href="https://instagram.com/bigbrotherdistro?igshid=M2RkZGJiMzhjOQ=="><img src="./images/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="link">
+                <h3>LINKS</h3>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="artiste.html">ARTISTS</a>
+                <a href="release.html">DISTRIBUTION</a>
+                <a href="live.html">LIVE</a>
+                <a href="#">NEWS & EVENTS</a>
+                <a href="#">SHOP MERCH</a>
+            </div>
+            <div class="search">
+                <h3>SUBSCRIBE</h3>
+                <input type="text" placeholder="Type your email address">
+            </div>
+
+            <p class="lg-none ttm">
+                &copy; BIG BROTHER MUSIC ALL RIGHTS RESERVED
+            </p>
+            
+        </div>
+        <div class="sm-none">
+            &copy; BIG BROTHER MUSIC ALL RIGHTS RESERVED
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
